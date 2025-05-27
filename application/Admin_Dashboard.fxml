@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F0F0F0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminDashboardController">
+   <children>
+      <Label layoutX="60.0" layoutY="40.0" text="FAST E-Learning Platform" textFill="#2b2b2b" underline="true">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Manage_Course" layoutX="220.0" layoutY="167.0" mnemonicParsing="false" onAction="#ManageCourseBtn" prefHeight="39.0" prefWidth="161.0" style="-fx-background-color: #2B9AD2; -fx-background-radius: 20;" text="Manage Courses">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="91.0" fitWidth="83.0" layoutX="440.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Fast.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Alumni_Verification" layoutX="220.0" layoutY="236.0" mnemonicParsing="false" onAction="#AlumniVerificationBtn" prefHeight="39.0" prefWidth="161.0" style="-fx-background-color: #2B9AD2; -fx-background-radius: 20;" text="Alumni Verification">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="176.0" layoutY="115.0" text="Welcome to Admin Dashboard!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="Back_To_Home" layoutX="232.0" layoutY="332.0" mnemonicParsing="false" onAction="#DashboardBack" prefHeight="39.0" prefWidth="137.0" style="-fx-background-color: #2B9AD2; -fx-background-radius: 20;" text="Back">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

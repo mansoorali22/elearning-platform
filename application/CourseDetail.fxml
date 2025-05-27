@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F0F0F0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CourseDetailController">
+   <children>
+      <Label layoutX="60.0" layoutY="40.0" text="FAST E-Learning Platform" textFill="#2b2b2b" underline="true">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Syllabus" layoutX="220.0" layoutY="145.0" mnemonicParsing="false" onAction="#Syllabus" prefHeight="39.0" prefWidth="161.0" style="-fx-background-color: #2B9AD2; -fx-background-radius: 20;" text="Syllabus">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="91.0" fitWidth="83.0" layoutX="440.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Fast.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Books" layoutX="220.0" layoutY="200.0" mnemonicParsing="false" onAction="#Books" prefHeight="39.0" prefWidth="161.0" style="-fx-background-color: #2B9AD2; -fx-background-radius: 20;" text="Books">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="247.0" layoutY="99.0" text="Course Detail">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="Back_To_Home" layoutX="232.0" layoutY="332.0" mnemonicParsing="false" onAction="#DashboardBack" prefHeight="39.0" prefWidth="137.0" style="-fx-background-color: #2B9AD2; -fx-background-radius: 20;" text="Back">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="Course_outline" layoutX="220.0" layoutY="257.0" mnemonicParsing="false" onAction="#CourseOutline" prefHeight="39.0" prefWidth="161.0" style="-fx-background-color: #2B9AD2; -fx-background-radius: 20;" text="Course Outline">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

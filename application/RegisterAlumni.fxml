@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F0F0F0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegisterAlumniController">
+   <children>
+      <Label layoutX="25.0" layoutY="157.0" text="Email:" textFill="#2B2B2B">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email_textfield" layoutX="172.0" layoutY="156.0" prefHeight="25.0" prefWidth="276.0" promptText="Enter your email" style="-fx-border-color: #BDBDBD; -fx-border-radius: 5;" />
+      <Label layoutX="25.0" layoutY="205.0" text="Password:" textFill="#2B2B2B">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password_textfield" layoutX="172.0" layoutY="205.0" prefHeight="25.0" prefWidth="276.0" promptText="Enter your password" style="-fx-border-color: #BDBDBD; -fx-border-radius: 5;" />
+      <Label layoutX="60.0" layoutY="40.0" text="FAST E-Learning Platform" textFill="#2b2b2b" underline="true">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Register_Logged" layoutX="345.0" layoutY="340.0" mnemonicParsing="false" onAction="#AlumniRegister" prefHeight="39.0" prefWidth="137.0" style="-fx-background-color: #2B9AD2; -fx-background-radius: 20;" text="Register">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="91.0" fitWidth="83.0" layoutX="440.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Fast.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Back_To_Home" layoutX="155.0" layoutY="340.0" mnemonicParsing="false" onAction="#AlumniRegisterBack" prefHeight="39.0" prefWidth="137.0" style="-fx-background-color: #2B9AD2; -fx-background-radius: 20;" text="Back">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="23.0" layoutY="109.0" text="Full Name:" textFill="#2B2B2B">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="250.0" text="Phone No:" textFill="#2B2B2B">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fullName_textfield" layoutX="172.0" layoutY="108.0" prefHeight="25.0" prefWidth="276.0" promptText="Enter your fullname" style="-fx-border-color: #BDBDBD; -fx-border-radius: 5;" />
+      <TextField fx:id="phoneNo_textfield" layoutX="172.0" layoutY="249.0" prefHeight="25.0" prefWidth="276.0" promptText="Enter your phone number" style="-fx-border-color: #BDBDBD; -fx-border-radius: 5;" />
+      <Label layoutX="24.0" layoutY="288.0" text="Year of Completion:" textFill="#2B2B2B">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="yoc_textfield" layoutX="172.0" layoutY="287.0" prefHeight="27.0" prefWidth="276.0" promptText="Enter degree completion year" style="-fx-border-color: #BDBDBD; -fx-border-radius: 5;" />
+      <Label fx:id="Alumni_Register_info" layoutX="184.0" layoutY="82.0" prefHeight="25.0" prefWidth="228.0" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
